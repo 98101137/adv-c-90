@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(90, 86, 86, 0.507);
+    background-image: url("download\ \(2\).jpeg");
+}
+.menu{
+    z-index: 1000;
+    margin: 0;
+    padding: 20;
+    position: fixed;
+    cursor: pointer;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 100%;
+    top: 0;
+   
+}
+.links{
+    float: right;
+    padding-left: 80px;
+    padding-right: 9px;
+    font-size: 20px;
+    color:white;
+}
+.logo{
+        float: left;
+        margin-left: 90px;
+        padding: 0;
+       font-family: 'Libre Baskerville', serif;
+        font-size: 34px;
+        color:white;
+}
+.links:hover{
+    font-size: 25px;
+    background-color:grey;
+    border-style: double;
+}
+.img{
+    width: 1580px;
+    height: 800px;
+    background-position: center;
+    position: absolute;
+    
+}
+.login_div1 , .login_div2
+	{
+		background:white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        width: 450px;
+        height: 150;
+        background-position: center;
+        top: 100px;
+	}
+.h4{
+    color: black;
+}
+.login_div2{
+  margin-top: 50px;
+}
+.login_div1{
+    margin-top: 200px;
+}
+
+
